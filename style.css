@@ -1,0 +1,5258 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+ body
+ {
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(90deg,#86b8ff,#9de3ff);
+
+ }
+
+ nav{
+background-image: linear-gradient(90deg,#d8fff5,#b8ffd3);
+width: 100%;
+height: 85px;
+box-shadow: 10px 10px 15px #0000006d;
+
+ }
+ 
+nav ul
+{
+float: right;
+
+}
+
+nav ul li
+ {
+float: right;
+list-style: none;
+position: relative;
+ }
+
+ nav ul li a
+ {
+    font-weight: bold;
+font-family: roboto, arial, sans-serif;
+color: black ;
+font-size: 23px;
+padding: 28px;
+display: block;
+text-decoration: none;
+ }
+
+ nav ul li a:hover
+ {
+background-color: #a1bfff;;
+border-radius: 10px;
+
+
+ }
+
+ 
+
+ nav ul li:hover ul
+ {
+display: block;
+position: absolute;
+background-color: #628cc7;
+border-radius: 0px 0px 7px 7px;
+
+
+ }
+
+ nav ul li ul
+ {
+display: none;
+
+ }
+
+ nav ul li ul li a 
+ 
+ {
+color: white;
+ padding: 16px,20px;
+border-radius: 5px;
+
+ }
+
+ nav ul li ul li a:hover
+  {
+background-color: #4a6d9e;
+
+
+ }
+ .obertext1Shop{
+
+font-weight: bold;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+
+.Shop-products1{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+}
+.Shop-products1:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product1{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name1{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name1Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products2{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+}
+.Shop-products2:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product2{
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+
+}
+
+
+.Name2{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name2Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products3{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products3:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product3{
+    margin-left: 60px;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 3;
+width: 160px;
+
+
+
+
+}
+
+
+.Name3{
+    
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name3Info{
+    
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products4{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products4:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product4{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name4{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name4Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products5{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products5:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product5{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name5{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name5Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products6{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products6:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product6{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name6{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name6Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products7{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products7:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product7{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name7{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name7Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products8{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products8:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product8{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name8{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name8Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products9{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products9:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product9{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name9{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name9Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products10{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+}
+.Shop-products10:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product10{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name10{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name10Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products11{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+}
+.Shop-products11:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product11{
+    margin-left: 37px;
+    margin-top: 20px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name11{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name11Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products12{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products12:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product12{
+    margin-left: 37px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name12{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name12Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products13{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products13:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product13{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+    display: inline-block;
+width: 250px;
+
+
+}
+
+
+.Name13{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name13Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products14{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products14:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product14{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name14{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name14Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products15{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products15:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product15{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name15{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name15Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products16{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+}
+.Shop-products16:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product16{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 230px;
+
+}
+
+
+.Name16{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name16Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products17{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products17:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product17{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name17{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name17Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products18{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products18:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product18{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name18{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name18Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products19{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products19:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product19{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name19{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name19Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products20{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products20:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product20{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name20{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name20Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products21{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products21:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product21{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name21{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name21Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products22{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products22:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product22{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name22{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name22Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products23{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products23:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product23{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name23{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name23Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products24{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products24:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product24{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name24{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name24Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products25{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products25:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product25{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 10px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name25{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name25Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products26{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products26:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product26{
+    margin-left: 12px;
+    margin-top: 43px;
+    margin-bottom: 10px;
+    display: inline-block;
+width: 270px;
+
+}
+
+
+.Name26{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name26Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products27{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products27:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product27{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name27{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name27Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products28{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products28:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product28{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name28{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name28Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products29{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products29:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product29{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name29{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name29Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products30{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products30:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product30{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name30{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name30Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products31{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products31:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product31{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name31{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name31Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products32{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products32:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product32{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name32{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name32Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products33{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products33:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product33{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 53px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name33{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name33Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products34{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products34:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product34{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name34{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name34Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products35{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products35:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product35{
+    margin-left: 36px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name35{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name35Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products36{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products36:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product36{
+    margin-left: 13px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name36{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name36Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products37{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products37:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product37{
+    margin-left: 15px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name37{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name37Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products38{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products38:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product38{
+    margin-left: 13px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name38{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name38Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products39{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products39:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product39{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name39{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name39Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products40{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products40:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product40{
+    margin-left: 40px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name40{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name40Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products41{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products41:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product41{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name41{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name41Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products42{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products42:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product42{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name42{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name42Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products43{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products43:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product43{
+    margin-left: 48px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+width: 170px;
+
+}
+
+
+.Name43{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name43Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products44{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products44:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product44{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name44{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name44Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products45{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products45:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product45{
+    margin-left: 13px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name45{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name45Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products46{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products46:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product46{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: inline-block;
+width: 150px;
+
+}
+
+
+.Name46{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name46Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products47{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products47:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product47{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: inline-block;
+width: 150px;
+
+}
+
+
+.Name47{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name47Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products48{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products48:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product48{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name48{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name48Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products49{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products49:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product49{
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+width: 170px;
+
+}
+
+
+.Name49{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name49Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products50{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products50:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product50{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name50{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name50Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products51{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products51:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product51{
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name51{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name51Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products52{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products52:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product52{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name52{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name52Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products53{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products53:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product53{
+    margin-left: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name53{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name53Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products54{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products54:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product54{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: inline-block;
+width: 150px;
+
+}
+
+
+.Name54{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name54Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products55{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products55:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product55{
+    margin-left: 60px;
+    margin-top: 20px;
+    display: inline-block;
+width: 170px;
+
+}
+
+
+.Name55{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name55Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products56{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products56:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product56{
+    margin-left: 21px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name56{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name56Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products57{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products57:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product57{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    display: inline-block;
+width: 180px;
+
+}
+
+
+.Name57{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name57Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products58{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products58:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product58{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name58{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name58Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products59{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products59:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product59{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name59{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name59Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products60{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products60:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product60{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name60{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name60Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products61{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products61:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product61{
+    margin-left: 60px;
+    margin-top: 20px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name61{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name61Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products62{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products62:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product62{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: inline-block;
+width: 130px;
+
+}
+
+
+.Name62{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name62Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products63{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products63:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product63{
+    margin-left: 75px;
+    margin-top: 20px;
+    display: inline-block;
+width: 140px;
+
+}
+
+
+.Name63{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name63Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products64{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products64:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product64{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name64{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name64Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products65{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products65:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product65{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -6px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name65{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name65Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+.Shop-products66{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products66:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product66{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+width: 150px;
+
+}
+
+
+.Name66{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name66Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products67{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products67:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product67{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name67{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name67Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products68{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products68:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product68{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: inline-block;
+width: 120px;
+
+}
+
+
+.Name68{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name68Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products69{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products69:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product69{
+    margin-left: 75px;
+    margin-top: 20px;
+    display: inline-block;
+width: 120px;
+
+}
+
+
+.Name69{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name69Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products70{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products70:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product70{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name70{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name70Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products71{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products71:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product71{
+    margin-left: 37px;
+    margin-top: 20px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name71{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name71Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products72{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products72:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product72{
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name72{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name72Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products73{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products73:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product73{
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-top: 48px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name73{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name73Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products74{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products74:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product74{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 230px;
+
+}
+
+
+.Name74{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name74Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products75{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products75:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product75{
+    margin-left: 57px;
+    margin-top: 20px;
+    display: inline-block;
+width: 170px;
+
+}
+
+
+.Name75{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name75Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products76{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products76:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product76{
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name76{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name76Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+.Shop-products77{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products77:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product77{
+    margin-left: 47px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+width: 180px;
+
+}
+
+
+.Name77{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name77Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products78{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products78:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product78{
+    margin-left: 37px;
+    margin-top: 20px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name78{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name78Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products79{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products79:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product79{
+    margin-left: 73px;
+    margin-top: 20px;
+    display: inline-block;
+width: 130px;
+
+}
+
+
+.Name79{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name79Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products80{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products80:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product80{
+    margin-left: 73px;
+    margin-top: 20px;
+    display: inline-block;
+width: 130px;
+
+}
+
+
+.Name80{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name80Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products81{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products81:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product81{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name81{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name81Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products82{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products82:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product82{
+    margin-left: 43px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name82{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name82Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products83{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products83:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product83{
+    margin-left: 47px;
+    margin-top: 20px;
+    display: inline-block;
+width: 180px;
+
+}
+
+
+.Name83{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name83Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products84{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products84:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product84{
+    margin-left: 32px;
+    margin-top: 20px;
+    display: inline-block;
+width: 210px;
+
+}
+
+
+.Name84{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name84Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products85{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products85:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product85{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name85{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name85Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products86{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products86:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product86{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name86{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name86Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products87{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products87:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product87{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name87{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name87Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products88{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products88:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product88{
+    margin-left: 13px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name88{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name88Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products89{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products89:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product89{
+    margin-left: 78px;
+    margin-top: 20px;
+    display: inline-block;
+width: 120px;
+
+}
+
+
+.Name89{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name89Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+.Shop-products90{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products90:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product90{
+    margin-left: 87px;
+    margin-top: 20px;
+    display: inline-block;
+width: 90px;
+
+}
+
+
+.Name90{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name90Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products91{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products91:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product91{
+    margin-left: 37px;
+    margin-top: 20px;
+    display: inline-block;
+width: 200px;
+
+}
+
+
+.Name91{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name91Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products92{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products92:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product92{
+    margin-left: 32px;
+    margin-top: 20px;
+    display: inline-block;
+width: 230px;
+
+}
+
+
+.Name92{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name92Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+.Shop-products93{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products93:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product93{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+width: 230px;
+
+}
+
+
+.Name93{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name93Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.Shop-products94{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products94:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product94{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 220px;
+
+}
+
+
+.Name94{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name94Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.Shop-products95{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products95:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product95{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name95{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name95Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-products96{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products96:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product96{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name96{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name96Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products97{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products97:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product97{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name97{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name97Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products98{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products98:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product98{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name98{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name98Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.Shop-products99{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products99:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product99{
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name99{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name99Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.Shop-products102{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products102:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product102{
+    margin-left: 13px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name102{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name102Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+.Shop-products101{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 280px;
+    height: 280px;
+    vertical-align: top;
+}
+.Shop-products101:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product101{
+    margin-left: 13px;
+    margin-top: 20px;
+    display: inline-block;
+width: 250px;
+
+}
+
+
+.Name101{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name101Info{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+
+
+
+.homep{
+    
+    display: inline-block;
+
+
+}
+
+.modelbild{
+    position: absolute;
+right: 0px;
+bottom: 0px;
+width: 36%;
+
+
+
+}
+
+
+.Shop-products1mio{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    width: 180px;
+    height: 180px;
+    vertical-align: top;
+}
+.Shop-products1mio:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.Shop-product1mio{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 13px;
+    display: inline-block;
+width: 120px;
+}
+
+
+.Name1mio{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+}
+.Name1mioInfo{
+    text-align: center;
+    color: rgb(72, 72, 72);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    line-height: 18px;
+}
+
+
+.homepgtextover{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+
+    font-family: roboto, arial, sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+
+.homepagetext2{
+
+    margin-left: 50px;
+    margin-top: 30px;
+    
+
+    font-family: roboto, arial, sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+
+.LOGO{
+font-size: 80px;
+font-family: roboto, arial, sans-serif;
+text-align: center;
+font-weight: bold;
+margin-top: 30px;
+
+
+}
+
+
+
+.lasttext{
+
+
+    font-family:roboto, arial, sans-serif;
+margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+
+
+.cmso{
+ 
+    font-size: 100px;
+    font-family: roboto, arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.impressum{
+    
+    font-family: roboto, arial, sans-serif;
+}
+
+
+
+
+
+
+
+.textcontact{
+
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family: roboto, arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+.Formq{
+    margin-left: 730px;
+    margin-top: 40px;
+    
+
+
+}
+ .We2
+{
+    margin-left: 330px;
+    margin-top: 40px;
+    font-family: roboto, arial, sans-serif;
+    font-size: 22px;
+    
+
+}
+
+.Were2{
+    margin-left: 130px;
+    margin-top: 50px;
+    font-family: roboto, arial, sans-serif;
+    
+    
+
+}
+
+.partner24{
+    margin-left: 630px;
+    margin-top: 50px;
+    font-family: roboto, arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    
+
+}
+
+
+.linkpart{
+    text-align: center;
+margin-top: 40px;
+font-family: roboto, arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.LINKS24{
+
+    font-size: 25px;
+    font-family: roboto, arial, sans-serif;
+    font-weight:400; 
+    transition: 0.2s;
+    padding-left: 750px;
+    padding-top: 50px;
+
+
+
+}
+
+
+.LINKS24:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+
+
+
+
+}
+
+.modelbild1{
+    position: absolute;
+left: 0px;
+bottom: 0px;
+width: 20%;}
+
+
+
+.modelbild2{
+    position: absolute;
+right: 0px;
+bottom: 0px;
+width: 20%;}
+
+
